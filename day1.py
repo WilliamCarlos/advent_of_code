@@ -42,8 +42,8 @@ with open("day1.txt") as file:
         entries.append(int(line))
 
 # Part 1, naive
-for i in range(len(entries)):
-    for j in range(i, len(entries)):
+for i in range(len(entries)-1):
+    for j in range(i+1, len(entries)):
         if entries[i] + entries[j] == 2020:
             print("{:15} Hurray, we found it! The numbers are {} and {} and"\
                   "their product is {}.".format('Part 1:', entries[i],
