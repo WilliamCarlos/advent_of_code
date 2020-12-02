@@ -37,7 +37,7 @@ Of course, your expense report is much larger. Find the two entries that sum to
 
 print('hello world!')
 entries = []
-with open("day1.txt") as file:
+with open("data/day1.txt") as file:
     for line in file:
         entries.append(int(line))
 

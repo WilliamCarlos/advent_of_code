@@ -52,7 +52,7 @@ valid according to the new interpretation of the policies? '''
 
 # Populate passwords.
 passwords = []
-with open("day2.txt") as f:
+with open("data/day2.txt") as f:
     for line in f:
         passwords.append(line)
         # print(line)
